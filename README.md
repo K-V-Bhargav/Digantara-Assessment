@@ -1,7 +1,3 @@
-Here’s a cleaner and more readable version of your project README:
-
----
-
 # 🚀 Space Object Tracking System
 
 A **modern, interactive satellite tracking application** built with **React** and **Vite** that allows users to monitor and filter real-time satellite and space debris data.
