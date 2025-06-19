@@ -1,12 +1,43 @@
-# React + Vite
+# Space Object Tracking System
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, interactive satellite tracking application built with React and Vite that allows users to monitor and filter real-time satellite and space debris data.
 
-Currently, two official plugins are available:
+![Space Object Tracking System](https://github.com/K-V-Bhargav/Digantara-Assessment/raw/main/public/screenshot.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- **Real-time Satellite Data**: Fetches and displays comprehensive satellite information from the Digantara API
+- **Interactive Filtering**:
+  - Filter by object type (Rocket Bodies, Debris, Payloads, Unknown)
+  - Toggle between all objects and selected objects only
+  - Search functionality across all satellite data fields
+- **Selection Management**: Select up to 10 satellites with visual feedback
+- **Detailed Information Display**:
+  - NORAD Catalog ID
+  - Object name and type
+  - Country code
+  - Launch date
+  - Orbit code
+- **Responsive Design**: Modern space-themed UI with smooth animations and transitions
+- **Statistics Dashboard**: Real-time counts of different object types
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Technology Stack
+
+- **Frontend**: React 18 with Hooks
+- **Build Tool**: Vite
+- **Styling**: Custom CSS with animations and transitions
+- **API Integration**: Fetch API for data retrieval
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (v14.0 or higher)
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
+   ```bash
+   git clone [https://github.com/K-V-Bhargav/Digantara-Assessment.git](https://github.com/K-V-Bhargav/Digantara-Assessment.git)
+   cd Digantara-Assessment
